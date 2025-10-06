@@ -1,27 +1,26 @@
-# AI-Assisted Endometriosis Screening (Demo)
+# 🧠 Endometriosis AI – Early Detection Support Tool
 
-This project demonstrates a **Streamlit-based AI demo** for endometriosis detection using medical imaging.
+### 💡 Overview
+**Endometriosis AI** is an AI-assisted application designed to support early detection and awareness of endometriosis through non-invasive symptom analysis and patient history inputs.  
+This project demonstrates how machine learning and healthcare technology can work together to provide diagnostic assistance and patient empowerment.
 
-## Features
-- Upload a pelvic MRI or ultrasound image (JPG/PNG).
-- AI (stub model) predicts:
-  - **Possible Endometriosis**
-  - **Unlikely Endometriosis**
-- Outputs confidence score.
-- Educational tool only — **not for medical use**.
+The app is built using **Streamlit** for interactivity and visualization, and a **TensorFlow-based stub model** for predictive simulation (educational demo only).
 
-## How to Run
-1. Install requirements:
-   ```bash
-   pip install streamlit pillow numpy
-   ```
+---
 
-2. Run the app:
-   ```bash
-   streamlit run app.py
-   ```
+### 🧰 Features
+- 🩺 AI-powered prediction interface (for demonstration)
+- 🧾 Patient symptom input form with dynamic visualization
+- 📊 Example TensorFlow model stub for data inference
+- 🌐 Simple web app built with Streamlit
+- 💻 Deployable locally or via Streamlit Cloud / Hugging Face Spaces
 
-3. Open the link provided in your terminal (usually http://localhost:8501).
+---
 
-## Disclaimer
-This demo is for **educational purposes only** and is not a substitute for professional medical diagnosis or treatment.
+### ⚙️ Installation
+
+#### 1. Clone the repository
+```bash
+git clone https://github.com/samirag2010/Endometriosis-AI.git
+cd Endometriosis-AI
+
