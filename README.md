@@ -25,7 +25,8 @@ This project aims to:
 The system follows a simple AI pipeline:
 
 1. **User Input**
-   - Text-based symptom descriptions
+   - Text-based symptom descriptions → NLP Model
+   - (Future) Medical Images → Computer Vision Model
 
 2. **Preprocessing**
    - Text cleaning
@@ -64,6 +65,11 @@ The system follows a simple AI pipeline:
 - Displays confidence levels
 - Provides medical guidance recommendations
 - Simple and interactive UI using Streamlit
+
+## Future Improvements
+
+- Add medical imaging analysis (MRI/Ultrasound) using computer vision models
+- Expand to multimodal AI (text + image fusion)
 
 ---
 
