@@ -103,6 +103,8 @@ streamlit run app.py
 
 ## Step 3: Example Output Screenshots
 
+## Example Output
+
 ### Input
 ![Input Screenshot](docs/demo.png)
 
