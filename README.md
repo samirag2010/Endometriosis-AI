@@ -1,25 +1,88 @@
-# 🧠 Endometriosis AI – Early Detection Support Tool
+# Endometriosis AI Detection Assistant
 
-### 💡 Overview
-**Endometriosis AI** is an AI-assisted application designed to support early detection and awareness of endometriosis through non-invasive symptom analysis and patient history inputs.  
-This project demonstrates how machine learning and healthcare technology can work together to provide diagnostic assistance and patient empowerment.
+## Project Overview
+The **Endometriosis AI Detection Assistant** is a healthcare-focused AI application designed to support early awareness of potential endometriosis symptoms.
 
-The app is built using **Streamlit** for interactivity and visualization, and a **TensorFlow-based stub model** for predictive simulation (educational demo only).
+Users enter symptom descriptions, and the system analyzes the input using Natural Language Processing (NLP) techniques to generate structured, explainable insights.  
 
----
-
-### 🧰 Features
-- 🩺 AI-powered prediction interface (for demonstration)
-- 🧾 Patient symptom input form with dynamic visualization
-- 📊 Example TensorFlow model stub for data inference
-- 🌐 Simple web app built with Streamlit
-- 💻 Deployable locally or via Streamlit Cloud / Hugging Face Spaces
+⚠️ This tool is **not a diagnostic system**. It is designed for **educational and awareness purposes only** and encourages users to consult healthcare professionals.
 
 ---
 
-### ⚙️ Installation
+## The Vision
+Endometriosis is often underdiagnosed and can take years to identify.  
 
-#### 1. Clone the repository
+This project aims to:
+- Help users better understand symptom patterns
+- Provide structured, explainable AI insights
+- Encourage earlier medical consultation
+- Demonstrate responsible AI use in healthcare
+
+---
+
+## The Architecture (The Brains 🧠)
+
+The system follows a simple AI pipeline:
+
+1. **User Input**
+   - Text-based symptom descriptions
+
+2. **Preprocessing**
+   - Text cleaning
+   - Tokenization
+   - Encoding into embeddings
+
+3. **Model Layer**
+   - Machine Learning / NLP model (TensorFlow / future transformer-based model)
+   - Pattern recognition for symptom indicators
+
+4. **Output Layer**
+   - Confidence score
+   - Explanation of findings
+   - Recommendation for medical consultation
+
+5. **Frontend**
+   - Streamlit interface for interaction
+
+---
+
+## Technologies Used
+
+- Python
+- Streamlit
+- TensorFlow (baseline model)
+- Pandas / NumPy
+- (Planned/Future) Hugging Face Transformers
+- GitHub for version control
+
+---
+
+## Features
+
+- Accepts natural language symptom input
+- Generates structured, explainable output
+- Displays confidence levels
+- Provides medical guidance recommendations
+- Simple and interactive UI using Streamlit
+
+---
+
+## Privacy & Security
+
+This project follows a **privacy-first design**:
+
+- No permanent storage of user input
+- Data processed in temporary session memory
+- No personal health information retained
+- Optional export features (future enhancement)
+- Medical disclaimer included in outputs
+
+---
+
+## How to Run the Project
+
+### 1. Clone the repository
+
 ```bash
 git clone https://github.com/samirag2010/Endometriosis-AI.git
 cd Endometriosis-AI
