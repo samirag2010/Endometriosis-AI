@@ -112,3 +112,7 @@ streamlit run app.py
 
 ### Results
 ![Results Screenshot](docs/demo2.png)
+
+## Presentation
+
+[View Project Presentation](presentation/Endometriosis_AI_Showcase.pdf)
