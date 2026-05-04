@@ -115,6 +115,6 @@ streamlit run app.py
 
 ## Presentation
 
-[View Project Presentation](presentation/Endometriosis-AI-Detection-Assistant (final).pdf)
+[View Project Presentation](presentation/Endometriosis-AI-Detection-Assistant%20(final).pdf)
 
 
