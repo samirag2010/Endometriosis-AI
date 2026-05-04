@@ -93,3 +93,18 @@ This project follows a **privacy-first design**:
 git clone https://github.com/samirag2010/Endometriosis-AI.git
 cd Endometriosis-AI
 
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+
+---
+
+## Step 3: Example Output Screenshots
+
+### Input
+![Input Screenshot](docs/demo.png)
+
+### Results
+![Results Screenshot](docs/demo2.png)
