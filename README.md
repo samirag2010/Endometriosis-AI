@@ -8,6 +8,11 @@ Users enter symptom descriptions, and the system analyzes the input using Natura
 
 ⚠️ This tool is **not a diagnostic system**. It is designed for **educational and awareness purposes only** and encourages users to consult healthcare professionals.
 
+## 🚀 Live Demo
+
+Try the app here:  
+https://endometriosis-ai-eqwtqeuqnkzgrzh49pur85.streamlit.app/
+
 ---
 
 ## Why This Matters
